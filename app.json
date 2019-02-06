@@ -1,0 +1,26 @@
+{
+  "name": "Discord.js Example Bot",
+  "description": "Example Bot For Discord, Using Discord.js Library.",
+  "keywords": [
+    "node",
+    "heroku",
+    "discord"
+  ],
+  "logo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/64de9281-bcb9-44f7-a9bc-d70a6165b42d/dbvxey6-afb0ad51-8aef-45d9-aab4-a9740ee12c4c.png",
+  "success_url": "/welcome",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A Secret Bot Token, Used To Login The BOT. Get The Token In Your App Settings.",
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "A Prefix To Run Your Bot Commands.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
