@@ -9,15 +9,7 @@ bot.on("ready", function() {
     bot.user.setGame(`Follow me on IG: Naoi_Gnzalez`);
     console.log(`${bot.user.username} Esta Listo!`);
 });
-//CUAK-
- "embed": {
-    "color": 15743107,
-    "image": {
-      "url": `${member.user.avatarURL}`
-    },
-    "description": `** Bip bop! Welcome to TMesG! ${member.user.tag}!!! <3**   `,
-  }
-    //CUAK
+
 bot.on("message", function(message) {
 
     if (message.author.bot) return;
@@ -47,7 +39,15 @@ bot.on("message", function(message) {
         if(message.member.hasPermission('MANAGE_MESSAGES')) return message.channel.send(embedhelpadmin);
     };
 
-
+//CUAK-
+ "embed": {
+    "color": 15743107,
+    "image": {
+      "url": `${member.user.avatarURL}`
+    },
+    "description": `** Bip bop! Welcome to TMesG! ${member.user.tag}!!! <3**   `,
+  }
+    //CUAK
         })
     };
 
