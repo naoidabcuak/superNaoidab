@@ -38,16 +38,6 @@ bot.on("message", function(message) {
             message.channel.send(embedhelpmember)
         if(message.member.hasPermission('MANAGE_MESSAGES')) return message.channel.send(embedhelpadmin);
     };
-
-//CUAK-
- "embed": {
-    "color": 15743107,
-    "image": {
-      "url": `${member.user.avatarURL}`
-    },
-    "description": `** Bip bop! Welcome to TMesG! ${member.user.tag}!!! <3**   `,
-  }
-    //CUAK
         })
     };
 
@@ -62,5 +52,5 @@ bot.on("message", function(message) {
 });
 
 // Bot Login.
-// bot.login('YourAwesomeBotToken');
+// bot.login('NDM0MTI1MzY0MjIzMjc5MTA0.DzwNFQ.SUKhceELeV0VUaNuIOswb2nprio');
 bot.login(process.env.BOT_TOKEN);
