@@ -20,9 +20,6 @@ bot.on("ready", function() {
 
     if (command == "Cuak") {
         message.channel.send("**TMesG**");
-    };
-
-
 
 });
 
